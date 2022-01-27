@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use, prefer_const_constructors
+
 import 'package:flutter/material.dart';
 import 'package:flutter_cubit/pages/navpages/bar_item_page.dart';
 import 'package:flutter_cubit/pages/navpages/home_page.dart';
@@ -42,6 +44,7 @@ class _MainPageState extends State<MainPage> {
         showSelectedLabels: false,
         showUnselectedLabels: false,
         elevation: 0,
+        // ignore: prefer_const_literals_to_create_immutables
         items: [
           BottomNavigationBarItem(title: Text("Home"), icon: Icon(Icons.apps)),
           BottomNavigationBarItem(
